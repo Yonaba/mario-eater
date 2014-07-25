@@ -22,8 +22,7 @@ while true do
 		screen:print(215,85,"You win", Color.new(255,0,0))
 		screen:print(202,95,"Press Cross", Color.new(255,0,0))
 	end
-
-
+	
 	screen.waitVblankStart()
 	screen.flip()
 end
